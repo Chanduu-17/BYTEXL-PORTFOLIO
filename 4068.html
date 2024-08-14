@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandu's portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        /* Header Section */
+        header {
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/022/717/149/small_2x/free-education-day-arrangement-on-a-table-with-copy-space-generat-ai-free-photo.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            background-color: #fff;
+            color: #333;
+            margin: 0 auto;
+            max-width: 1200px;
+            border-bottom: 2px solid #ddd;
+		background-image: url('https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png');
+        }
+
+        .section-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .section-content .item {
+            flex: 1;
+            min-width: 250px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-content .item h3 {
+            font-size: 2em;
+            margin: 0 0 10px;
+        }
+
+        .section-content .item h4 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+            color: #666;
+        }
+
+        .section-content .item p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+		background-color: #f4f4f4;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #e9ecef;
+            padding: 60px 20px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+	background-color: #e9ecef;
+        }
+
+        .contact-info p {
+            font-size: 1.2em;
+            margin: 0;
+background-color: #e9ecef;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        form input, form textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        form input[type="submit"] {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            transition: background 0.3s;
+        }
+
+        form input[type="submit"]:hover {
+            background: #0056b3;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <p> Venkata Chandu - NextGenEngineer</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-title">About Me</div>
+        <div class="section-content">
+            <div class="item">
+                <h3>Education</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Level</th>
+                            <th>Institution</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.Tech</td>
+                            <td>Vignan's Foundation For Science, Technology And Research</td>
+                            <td>CGPA: 8.4</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediate</td>
+                            <td>Narayana Junior College</td>
+                            <td>Percentage: 98.3</td>
+                        </tr>
+                        <tr>
+                            <td>10th Standard</td>
+                            <td>Damodara Public School</td>
+                            <td>CGPA: 10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="item">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Programming Languages: Python, Java(Basic), C(Basic)</li>
+                    <li>Web Technologies: HTML5, CSS3, JavaScript(Basic)</li>
+                    <li>Database Management: SQL, MySQL</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>Certifications</h3>
+                <ul>
+                    <li><b>NPTEL</b></li>
+                    <li>Leadership and Team Effectiveness</li>
+		<li>E-Business</li>
+                    <li>Principles of Management</li>
+                    <li>Introduction to Internet of Things</li>
+                    <li><b>CISCO</b></li>
+                    <li>Introduction to Packet Tracer</li>
+                    <li>Network Essentials</li>
+			<li>Cyber Security Essentials</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-title">Projects</div>
+        <div class="section-content">
+            <div class="item">
+                <h3>Kidney Disease Detection Using Pre-Trained CNN Models</h3>
+                <h4>Deep Learning, Computer Vision</h4>
+                <p> Leveraged pre-trained Convolutional Neural Networks (CNNs) such as VGG16, ResNet50, and EfficientNet for the
+detection of kidney disease from medical images.
+ Preprocessed data including image resizing, normalization, and augmentation to enhance the model’s performance and
+generalizability.
+ Fine-tuned pre-trained models by adding custom classification layers and optimizing hyperparameters to achieve high
+accuracy in detecting kidney disease.
+ Evaluated model performance using metrics such as Accuracy, Precision, Recall, F1 Score, and AUC-ROC,
+demonstrating the effectiveness of CNN-based approaches in medical image analysis.
+ Developed a robust pipeline for data processing, model training, and evaluation using TensorFlow and Keras, facilitating
+efficient and scalable model development.</p>
+            </div>
+            <div class="item">
+                <h3>Efficient Data Summarization using Contemporary Clustering Techniques</h3>
+                <h4>Machine Learning</h4>
+                <p> Implemented k-means clustering algorithm to efficiently summarize large datasets.
+Utilized principal component analysis (PCA) for dimensionality reduction prior to clustering to enhance performance.
+ Evaluated clustering results using silhouette score and adjusted Rand index to validate clustering quality.
+ Integrated Python libraries like scikit-learn and pandas for data preprocessing and clustering operations.
+ Presented findings in a team meeting, showcasing improved data summarization efficiency by 30%.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-title">Contact Me</div>
+        <div class="contact-info">
+            <p>If you have any questions or would like to get in touch, please use the contact form below or email me directly at <a href="mailto:chanduyarramothu@gmail.com">chanduyarramothu@gmail.com</a>.</p>
+        </div>
+        <form action="mailto:chanduyarramothu@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Venkata Chandu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
